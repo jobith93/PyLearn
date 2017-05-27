@@ -7,5 +7,5 @@ if a < b:
 else:
     print("a ({}) is greater than b({})".format(a, b))
 
-
-print("foo" if(a < b) else "bar")
+# conditional statements
+print("foo" if (a < b) else "bar")
