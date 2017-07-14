@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-#simple text mode int calculator using python
+# simple text mode int calculator using python
 
 # global variables
 num1 = 0
 num2 = 0
-operations = [ "Addition", "Substraction", "Multiplication", "Division", "Exponentiation" ]
+operations = ["Addition", "Subtraction", "Multiplication", "Division", "Exponentiation"]
 
 
 def print_menu():
@@ -16,7 +16,6 @@ def print_menu():
     print("4. Division")
     print("5. Exponentiation")
     return int(input("Enter your choice: "))
-    
 
 
 def get_input():
@@ -25,6 +24,7 @@ def get_input():
     num1 = int(input("Enter value for number 1: "))
     num2 = int(input("Enter value for number 2: "))
     return
+
 
 def calculate(ch=0, n1=0, n2=0):
     """function for calculations"""
@@ -46,8 +46,8 @@ def main():
     """main driver program"""
     choice = print_menu()
     get_input()
-    if choice > 0 and choice < 6:
-        print("Answer after", operations[choice-1], "is :", calculate(choice, num1, num2))
+    if 0 < choice < 6:
+        print("Answer after", operations[choice - 1], "is :", calculate(choice, num1, num2))
     else:
         print("Invalid Choice")
 
@@ -56,6 +56,8 @@ def main():
     if redo == 'y' or redo == 'Y':
         main()
     else:
-        print("Thankyou! Keep Coding...")
+        print("Thank you! Keep Coding...")
 
+
+# main program
 main()
