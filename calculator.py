@@ -38,7 +38,7 @@ def calculate(ch=0, n1=0, n2=0):
     elif ch == 5:
         return n1 ** n2
     else:
-        return print("Invalid Choice!")
+        return 0
 
 
 def main():
