@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # simple text mode int calculator using python
-
 # global variables
 num1 = 0
 num2 = 0
