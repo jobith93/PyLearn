@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+# created on: 19 July, 2017
+# @author: Jobith M Basheer [https://github.com/jobith93]
+
 def isPrime(n):
     if n == 1:
         print("1 is a special.")

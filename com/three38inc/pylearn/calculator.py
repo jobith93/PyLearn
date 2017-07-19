@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+# created on: 19 July, 2017
+# @author: Jobith M Basheer [https://github.com/jobith93]
+
 # simple text mode int calculator using python
 # global variables
 num1 = 0
