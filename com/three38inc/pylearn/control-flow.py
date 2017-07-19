@@ -72,5 +72,5 @@ print("\nNumbers:", end=" ")
 for num in range(1, 10):
     print(num, end=", ")
     if num == 5:
-        pass
+        pass    # NOP
 
