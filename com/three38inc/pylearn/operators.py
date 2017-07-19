@@ -64,3 +64,10 @@ print("`jijo` is part of the list: ", "jijo"in(names))
 print("`joel` is part of the list: ", "joel"in(names))
 
 # Identity Operators
+# () -> Paranthesis
+# ** -> Exponentiation
+# *  -> Multiplication
+# /  -> Division
+# +  -> Addition
+# -  -> Subtraction
+
