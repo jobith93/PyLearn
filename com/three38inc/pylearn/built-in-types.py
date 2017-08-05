@@ -10,6 +10,7 @@
 #   -> strings
 
 # creating a list
+print("~== List Explore ==~")
 cities = ["New York", "Chicago", "London",  "Bengaluru"]
 print("Create:", cities)
 print("Type of `cities`:", type(cities))
@@ -43,4 +44,19 @@ print("Pop:   ", cities)
 cities.sort()
 print("Sort:  ", cities)
 
+
+# Reverse
+cities.reverse()
+print("Reverse:", cities, sep="")
+
+
+# Creating Tuple
+courses = ("MCA", "MBA", "BCA", "BCOM")
+print("Create:", courses)
+print("Type of `courses`:", type(courses))
+
+# Creating Set
+labs = set(["computer", "chemistry", "physics"])
+print("Create:", labs)
+print("Type of `labs`:", type(labs))
 
