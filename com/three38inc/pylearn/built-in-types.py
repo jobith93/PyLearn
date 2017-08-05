@@ -22,16 +22,25 @@ print("Append:", cities)
 
 # Read
 print("Read:  ", cities[1:3])
+print("Read:  ", cities[:3])
+print("Read:  ", cities[2:])
+
 
 # Update
-cities[3] = "Brimmingham"
+cities[2] = "Brimingham"
 print("Update:", cities)
 
 # Delete
-#cities.remove(1)
+cities.remove("Kochi")
+# cities.clear()
 print("Remove:", cities)
 
 cities.pop()
 print("Pop:   ", cities)
+
+
+# Sorting
+cities.sort()
+print("Sort:  ", cities)
 
 
